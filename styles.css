@@ -1,0 +1,148 @@
+
+#title {
+  background-color:#ff4c68;
+  color:#fff;
+  padding-bottom: 10rem;
+}
+h1{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 1% 12%;
+}
+body{
+  font-family: "Montserrat";
+}
+.navbar{
+  padding-bottom:1.5rem;
+}
+.nav-item{
+  padding: 0 1.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: relative;
+  right:20px;
+
+}
+.cliche{
+  font-size: 4rem;
+}
+.iphone{
+  transform: rotate(25deg);
+  margin-bottom: 2rem;
+  position: absolute;
+  right: 30%;
+}
+#features{
+  padding: 13rem 9rem;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  font-family:""
+
+}
+h3{
+  line-height: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding-top:2rem;
+}
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  background:  #ef8172;
+  text-align: center;
+  color: #fff;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 2rem;
+
+}
+ .dog{
+   border-radius: 100%;
+   height: 6rem;
+   margin-right: 10px;
+ }
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.img-promo{
+  width: 15%;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricingsec{
+  padding: 3% 2%;
+}
+span{
+  position: relative;
+  top: 10px;
+}
+
+@media(max-width:992px ) {
+  .iphone{
+    position: static;
+    transform: rotate(0);
+    padding-top: 50px;
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+span1{
+  line-height: 4.5rem;
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 3.5rem;
+  position: relative;
+  bottom : 50px;
+
+}
+.btn{
+  margin: 10px;
+}
+.social{
+  margin: 2rem 1rem;
+}
+#footer{
+  background-color: #fff;
+  text-align: center;
+  margin: 6rem 0;
+}
